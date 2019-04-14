@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RecordVoiceActivity"
+            android:theme="@style/AlbumTheme" />
+        <activity
+            android:name=".SelectMaterialActivity"
+            android:theme="@style/AlbumTheme" />
     </application>
 
 </manifest>
